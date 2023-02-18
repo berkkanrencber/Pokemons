@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Telugu&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(90deg,#4743d0,#880868);
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Tiro Telugu',sans-serif;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+h1{
+    font-size: 3rem;
+    background: -webkit-linear-gradient(180deg,black,#8884f1,#000000);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+    filter: drop-shadow(2px 2px #000000);
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0.5rem;
+}
+
+.box{
+    width: 300px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.box img{
+    width: 80%;
+    margin: 10px 0;
+}
+
+.box h4{
+    font-size: 1.4rem;
+    margin: 5px auto;
+}
+
+.box p{
+    margin: 5px auto;
+}
+
+.box:hover{
+    border-style: solid;
+    border-color: black;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+#link{
+    text-decoration: none;
+}
+
+#link:hover {
+    color: hotpink;
+}
+
+#link:visited {
+    color: black;
+  }
+
+#link:active {
+    color: blue;
+}
+
+.container-info{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0.5rem;
+
+}
+
+.box-info{
+    width: 60%;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.box-info img{
+    width: 40%;
+    margin: 10px 0;
+}
